@@ -2,3 +2,79 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+    /* обложки */
+    --background-image-dark: url(../images/cover-image-dark.png);
+    --background-image-light: url(../images/cover-image-light.png);
+
+    /* цвета */
+    --color-dark: #000028;
+    --color-dark-rgb: 0 0 40;
+    --color-dark-light: #353430;
+    --color-dark-light-rgb: 53 52 48;
+    --color-white: #FFF1F7;
+    --color-neon: #DB00FF;
+    --color-red: #FF0070;
+    --color-red-rgb: 255 0 112;
+    --color-pink: #FF8DCB;
+    --color-pink-rgb: 255 141 203;
+    --color-pink-light: #F1B2CE;
+    --color-pink-lighter: #FFC2E6;
+
+    /* Шрифты */
+    --main-font-size: 1.125rem;
+    --main-line-height: 1.3;
+
+    /* Шкала расстояний */
+    --space-8: 8px;
+    --space-10: 10px;
+    --space-20: 20px;
+    --space-40: 40px;
+    --space-50: 50px;
+    --space-60: 60px;
+
+    --space-80: 80px;
+    /* Алиасы для gap */
+    --gap-page: var(--space-40);
+    --gap-main: var(--space-50);
+    --gap-section: var(--space-20);
+    --gap-list: var(--space-20);
+    --gap-gallery: var(--space-10);
+    --gap-header-decorative: var(--space-10);
+    --gap-header-theme-menu: var(--space-10);
+    --gap-article: var(--space-10);
+
+    /* Отступы и смещения */
+    --space-page-inline: var(--space-10);
+    --space-page-block: var(--space-10);
+    --space-frame-offset: var(--space-10);
+    --space-header-title-start: var(--space-10);
+    --space-header-title-end: var(--space-10);
+
+    /* Основная тема */
+    --background-image: var(--background-image-dark);
+    --background-color: var(--color-dark);
+    --title-decoration-color: var(--color-neon);
+    --decoration-element-color: var(--color-red);
+    --title-text-color: var(--color-red);
+    --title-text-accent-color: var(--color-dark);
+    --main-text-color: var(--color-pink-light);
+    --accent-color: var(--color-red);
+    --accent-color-rgb: var(--color-red-rgb);
+    --theme-switcher-color: var(--color-red);
+    --theme-switcher-color-rgb: var(--color-red-rgb);
+}
+
+@media (width >= 768px) {
+
+    :root {
+        --gap-page: var(--space-60);
+        --gap-main: var(--space-80);
+        --gap-gallery: var(--space-20);
+        --space-page-inline: var(--space-20);
+        --space-frame-offset: var(--space-20);
+        --space-header-title-start: 0;
+        --space-header-title-end: var(--space-20);
+    }
+}
+ 
