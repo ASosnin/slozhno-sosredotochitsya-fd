@@ -3,10 +3,11 @@
     --background-color: var(--color-white);
     --title-decoration-color: var(--color-pink-lighter);
     --decoration-element-color: var(--color-dark-light);
-    --title-text-color: var(--color-dark);
+    --title-text-color: var(--color-dark-light);
+    --title-text-accent-color: var(--color-dark-light);
     --accent-color: var(--color-pink);
     --accent-color-rgb: var(--color-pink-rgb);
-    --main-text-color: var(--color-dark);
+    --main-text-color: var(--color-dark-light);
     --theme-switcher-color: var(--color-dark-light);
     --theme-switcher-color-rgb: var(--color-dark-light-rgb);
 }
@@ -18,10 +19,11 @@
         --background-color: var(--color-white);
         --title-decoration-color: var(--color-pink-lighter);
         --decoration-element-color: var(--color-dark-light);
-        --title-text-color: var(--color-dark);
+        --title-text-color: var(--color-dark-light);
+        --title-text-accent-color: var(--color-dark-light);
         --accent-color: var(--color-pink);
         --accent-color-rgb: var(--color-pink-rgb);
-        --main-text-color: var(--color-dark);
+        --main-text-color: var(--color-dark-light);
         --theme-switcher-color: var(--color-dark-light);
         --theme-switcher-color-rgb: var(--color-dark-light-rgb);
     }
